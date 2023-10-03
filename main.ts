@@ -7,14 +7,14 @@
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
-let numbers = 0
+let numbersOfCliks = 0
 
 input.onButtonPressed(Button.A, function () {
-  numbers = numbers + 1
-  basic.showNumber(numbers)
+  numbersOfCliks = numbersOfCliks + 1
+  basic.showNumber(numbersOfCliks)
 })
 
 input.onButtonPressed(Button.B, function () {
-  numbers = 0
-  basic.showNumber(numbers)
+  numbersOfCliks = 0
+  basic.showNumber(numbersOfCliks)
 })
