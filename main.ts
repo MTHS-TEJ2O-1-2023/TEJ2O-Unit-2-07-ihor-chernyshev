@@ -2,7 +2,7 @@
  *
  * Created by: Ihor Chernyshev
  * Created on: Oct 2023
- * This program does "Cookie Clicer" on MicroBit
+ * This program does "Cookie Clicker" on MicroBit
 */
 
 basic.clearScreen()
